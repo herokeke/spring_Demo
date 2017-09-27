@@ -14,7 +14,7 @@ import com.mywork.core.model.User;
 import com.mywork.core.service.UserService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"/applicationContext.xml"})
+@ContextConfiguration(locations={"/spring_Demo/WEB-INF/applicationContext.xml"})
 public class TestUserService {
 
 	@Autowired

@@ -9,7 +9,7 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:applicationContext.xml</param-value>
 	</context-param>
-	
+
 	<listener>
 		<listener-class>
 		  org.springframework.web.context.ContextLoaderListener
@@ -19,7 +19,7 @@
 	<servlet>
 		<servlet-name>mywork</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<load-on-startup>2</load-on-startup>
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 	
 	<servlet-mapping>
